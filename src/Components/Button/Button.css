@@ -1,0 +1,14 @@
+button{
+    width: 205px;
+    height: 39px;
+    outline: none;
+    border-width:0;
+    text-align: center;
+    background-color: #00b681 ;
+    color: white;
+    border-radius: 5px;
+}
+#signup{
+    color: #00b681 ;
+    background-color: white;
+}

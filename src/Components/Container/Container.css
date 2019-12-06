@@ -1,0 +1,80 @@
+img{
+    position: absolute;
+    top: 69px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+
+}
+.leftWrapper{
+    position: relative;
+    left:129px;
+}
+.rightWrapper{
+    background-image: url('rightbackground.svg');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.welcomeText{
+    position: absolute;
+    top: 270px;
+}
+.welcomeText h2{
+    font-size: 52px;
+    font-weight: medium;
+    margin-bottom: 0;
+}
+.welcomeText p {
+    font-size :20px;
+    color:#D8D8D8;
+}
+.auth{
+    position: relative;
+    top:470px;
+}
+.forgotAuth{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.forgotAuth input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.checkmark{
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    margin-right:10px;
+    border: 2px solid #00b68281;
+    border-radius: 3px;
+}
+.forgotAuth:nth-child(3) {
+    font-size:18.6px;
+}
+.forgotAuth:nth-child(4) {
+    font-size:18.6px;
+    color: inherit;
+    text-decoration: inherit;
+}
+.forgotAuth:hover input ~ .checkmark {
+    background-color: #D8D8D8;
+}
+.button{
+    position: relative;
+    top:250px;
+}

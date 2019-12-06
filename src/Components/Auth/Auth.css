@@ -1,0 +1,21 @@
+input{
+    border: none;
+    border-bottom: 1px solid#D8D8D8;
+    outline: none;
+    margin-bottom: 10px;
+    width: 600px;
+    font-size: 29.3px;
+    color:#D8D8D8;
+}
+.singleAuth{
+    display: grid;
+    grid-template-columns:1fr;
+    width:600px;
+    height: 118px;
+    font-size: 29.3px;
+}
+.singleAuth label{
+    
+    color : #464646; 
+    font-size: 29.3px;
+}
